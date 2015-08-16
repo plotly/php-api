@@ -54,27 +54,6 @@ $kw=array(
 
 ```
 
-**Creating the arguments**
-
-```php
-
-// create the 'args' param
-$a=array( array(0, 1, 2), array(3, 4, 5), array(1, 2, 3), array(6, 6, 5) );
-
-// create the 'kwargs' param
-$kw=array( 
-    "filename" => "plot from api",
-    "fileopt" => "overwrite",
-    "style" => array( 
-                    "type" => "bar",
-                ),
-    "traces" => array( 1 ),
-    "layout" => array( 
-                    "title" => "experimental data"
-                ),
-    "world_readable" => true
-);
-```
 
 **Plot the graph**
 

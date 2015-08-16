@@ -5,12 +5,12 @@ https://plot.ly/rest/
 
 
 ## Requirements:
-*####You need to install a PHP extension that let's you submit HTTPS posts to /clientresp
+*You need to install a PHP extension that let's you submit HTTPS posts to /clientresp
 
 One way to do this is to use the libcurl extension with PHP , as defined here:
 http://php.net/curl
 
-*####You need a way to make JSON with PHP 
+*You need a way to make JSON with PHP 
 
 Just use a recent version-- json_encode is bundled with PHP versions >= 5.2
 
